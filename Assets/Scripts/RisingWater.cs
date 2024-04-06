@@ -3,7 +3,7 @@ using UnityEngine;
 public class RisingWater : MonoBehaviour
 {
     // Water position
-    float waterHeight = 0f;
+    float waterHeight = -1.0f;
 
     // How fast the water rises
     float waterSpeed = 0.001f;
@@ -24,4 +24,24 @@ public class RisingWater : MonoBehaviour
             gameObject.transform.position = new Vector3(0, waterHeight, 0);
         }
     }
+
+    public void StopWaterRising()
+    {
+        isRising = false;
+    }
+
+    public void StartWaterRising()
+    {
+        isRising = true;
+    }
+
+    public void ToggleWaterRising()
+    {
+        isRising = !isRising;
+    }
+
+    public void ResetWaterHeight()
+    {
+        waterHeight = -1f;
+    }    
 }
