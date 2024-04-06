@@ -7,4 +7,6 @@ EditorBuildSettings:
   m_Scenes: []
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8eed8ee7932a64351be039207fcc73b4, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cb08b72385f5734468c4f81ee54f3084, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 9cc07bfd32639dc4d9c6431fe5e8ae80, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e0e66268539d64499be8b1ad2dd51f8e, type: 2}
